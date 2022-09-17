@@ -1,23 +1,306 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/style.css">
-		<title>Lesson 5</title>
-	</head>
-	<body>
-		<header></header>
-		<main>
-			<div class="block">
-				Я DIV Lorem ipsum dolor sit
-			</div>
-			<span class="inline">
-				Я SPAN Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi magnam, veritatis animi quaerat laborum blanditiis corrupti deserunt maiores, fugiat asperiores non est. Tempore iusto neque laboriosam eos ducimus voluptatum autem?
-			</span>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 5 Daria Mol</title>
+
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<p>Це просто шапка сайту. Тут мабуть повинно бути щось корисне, але ні, не цього разу.</p>
+		</header>
+		<main class="main">
+			<div class="body">
+				<div class="introduction">
+					<h1 class="title">Так як зараз мені потрібно вчити іспанську мову, тож пропоную вчити її зі мною. Буду попторювати матеріал пишучи статті.</h1>
+					<h2 class="subtitle">Найголовніше мабудь у кожній мові це дієслова. </h2>
+					<img src="/img/1.jpg" alt="Просто смайл">
+					<h3>Почнемо з того що всі дієслова можна розділити на 4 групи:</h3>
+						<ul class="class_verb">
+							<li>
+								<a href="#regular">Regular</a> 
+							</li>
+							<li>
+								<a href="#cambio_de_vocal">Cambio de vocal</a> 
+							</li>
+							<li>
+								<a href="#presente_irreg">Presente irregular</a> 
+							</li>
+							<li>
+								<a href="#completamente_irreg">Completamente irregular</a> 	
+							</li>
+						</ul>
+					<p>Всі вони відмінюються за особами, тож розглянемо їх більш глибше.</p>
+					<h3>Всі дієслова діляться ще на три групи  із різними закінченнями:</h3>
+					<ul class="type_verb">
+						<li>~ar
+							<ul class="verb_exp">
+								<li>habl<span class="endings">ar</span> - говорити</li>
+								<li>cant<span class="endings">ar</span> - співати</li>
+							</ul>
+						</li>
+						<li>~er
+							<ul class="verb_exp">
+								<li>beb<span class="endings">er</span> - пити</li>
+								<li>com<span class="endings">er</span> - їсти</li>
+							</ul>
+						</li>
+						<li>~ir
+							<ul class="verb_exp">
+								<li>viv<span class="endings">ir</span> - жити</li>
+								<li>escrib<span class="endings">ir</span> - писати</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="verb_regular" id="regular">
+					<h3 >Розлянемо групу дієслів <span>regular</span> з різними закінченнями. У цих словах змінюється лише закінчення.</h3>
+					<div class="ending_ar">
+						<h4>Подивимось, що відбувається зі словом з закінченням <span class="endings">~ar</span> залежно від особи в теперішньому часі</h4>
+						<p class="color_red">Hablar - говорити</p>
+						<ul class="change_verb endings_ar_list">
+							<li>Yo (я) - habl<span class="endings">o</span> </li>
+							<li>Tu (ти) - habl<span class="endings">as</span></li>
+							<li>El,Ella (він,вона) - habl<span class="endings">a</span></li>
+							<li>Nosotros (ми) - habl<span class="endings">amos</span></li>
+							<li>Vosotros (ви) - habl<span class="endings">áis</span></li>
+							<li>Ellos (вони) - habl<span class="endings">an</span></li>
+						</ul>
+						<p>Cantar - співати</p>
+						<ul class="change_verb">
+							<li>Yo (я) - cant<span class="endings">o</span> </li>
+							<li>Tu (ти) - cant<span class="endings">as</span></li>
+							<li>El,Ella (він,вона) - cant<span class="endings">a</span></li>
+							<li>Nosotros (ми) - cant<span class="endings">amos</span></li>
+							<li>Vosotros (ви) - cant<span class="endings">áis</span></li>
+							<li>Ellos (вони) - cant<span class="endings">an</span></li>
+						</ul>
+					</div>
+					<div class="ending_er">
+						<h4>Подивимось, що відбувається зі словом з закінченням <span class="endings">~er</span> залежно від особи в теперішньому часі</h4>
+						<p class="color_red">Beber - пити</p>
+						<ul class="change_verb">
+							<li>Yo (я) - beb<span class="endings">o</span> </li>
+							<li>Tu (ти) - beb<span class="endings">es</span></li>
+							<li>El,Ella (він,вона) - beb<span class="endings">e</span></li>
+							<li>Nosotros (ми) - beb<span class="endings">emos</span></li>
+							<li>Vosotros (ви) - beb<span class="endings">éis</span></li>
+							<li>Ellos (вони) - beb<span class="endings">en</span></li>
+						</ul>
+						<p>Comer - їсти</p>
+						<ul class="change_verb">
+							<li>Yo (я) - com<span class="endings">o</span> </li>
+							<li>Tu (ти) - com<span class="endings">es</span></li>
+							<li>El,Ella (він,вона) - com<span class="endings">e</span></li>
+							<li>Nosotros (ми) - com<span class="endings">emos</span></li>
+							<li>Vosotros (ви) - com<span class="endings">éis</span></li>
+							<li>Ellos (вони) - com<span class="endings">en</span></li>
+						</ul>
+					</div>
+					<div class="ending_ir">
+						<h4>Подивимось, що відбувається зі словом з закінченням <span class="endings">~ir</span> залежно від особи в теперішньому часі</h4>
+						<p>Vivir - жити</p>
+						<ul class="change_verb">
+							<li>Yo (я) - viv<span class="endings">o</span> </li>
+							<li>Tu (ти) - viv<span class="endings">es</span></li>
+							<li>El,Ella (він,вона) - viv<span class="endings">e</span></li>
+							<li>Nosotros (ми) - viv<span class="endings">imos</span></li>
+							<li>Vosotros (ви) - viv<span class="endings">ís</span></li>
+							<li>Ellos (вони) - viv<span class="endings">en</span></li>
+						</ul>
+						<p>Escribir - писати</p>
+						<ul class="change_verb">
+							<li>Yo (я) - escrib<span class="endings">o</span> </li>
+							<li>Tu (ти) - escrib<span class="endings">es</span></li>
+							<li>El,Ella (він,вона) - escrib<span class="endings">e</span></li>
+							<li>Nosotros (ми) - escrib<span class="endings">imos</span></li>
+							<li>Vosotros (ви) - escrib<span class="endings">ís</span></li>
+							<li>Ellos (вони) - escrib<span class="endings">en</span></li>
+						</ul>
+					</div>
+				</div>
+				<div class="verb_cambio_de_vocal" id="cambio_de_vocal">
+					<h3>Група дієслів <span>cambio de vocal</span> з різними закінченнями. </h3>
+					<p class="description" >У цих дієсловах змінюється не лише закінчення а й у середині слова змінюються голосні літери. Перетворення цих слів залежить не від закінчень, це як в англійській мові - треба запам'ятати.</p>
+					<p>Дивимось.</p>
+						<ol>
+							<li>
+								<h4>Тут змінюється голосний звук в середині слова <span class="endings">~e</span>  на <span class="endings">~ie</span></h4>
+								<ul>
+									<li>
+										<p class="verb_transl">Pensar - думати</p>
+										<ul class="change_verb">
+											<li>Yo (я) - p<mark>ie</mark>ns<span class="endings">o</span> </li>
+											<li>Tu (ти) - p<mark>ie</mark>ns<span class="endings">as</span></li>
+											<li>El,Ella (він,вона) - p<mark>ie</mark>ns<span class="endings">a</span></li>
+											<li>Nosotros (ми) - p<mark>e</mark>ns<span class="endings">amos</span></li>
+											<li>Vosotros (ви) -p<mark>e</mark>ns<span class="endings">áis</span></li>
+											<li>Ellos (вони) - p<mark>ei</mark>ns<span class="endings">an</span></li>
+										</ul>
+									</li>
+									<li>
+										<p class="verb_transl">Entender - думати</p>
+										<ul class="change_verb">
+											<li>Yo (я) - ent<mark>ie</mark>nd<span class="endings">o</span> </li>
+											<li>Tu (ти) - ent<mark>ie</mark>nd<span class="endings">es</span></li>
+											<li>El,Ella (він,вона) - ent<mark>ie</mark>nd<span class="endings">e</span></li>
+											<li>Nosotros (ми) - ent<mark>e</mark>nd<span class="endings">emos</span></li>
+											<li>Vosotros (ви) -ent<mark>e</mark>nd<span class="endings">éis</span></li>
+											<li>Ellos (вони) - ent<mark>ei</mark>nd<span class="endings">en</span></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<h4>Тут змінюється голосний звук в середині слова <span  class="endings">~o</span>  на <span  class="endings">~ue</span></h4>
+								<ul>
+									<li>
+										<p class="verb_transl">Poder - могти</p>
+										<ul class="change_verb">
+											<li>Yo (я) - p<mark>ue</mark>d<span class="endings">o</span> </li>
+											<li>Tu (ти) - p<mark>ue</mark>d<span class="endings">es</span></li>
+											<li>El,Ella (він,вона) - p<mark>ue</mark>d<span class="endings">e</span></li>
+											<li>Nosotros (ми) - p<mark>o</mark>d<span class="endings">emos</span></li>
+											<li>Vosotros (ви) -p<mark>o</mark>d<span class="endings">éis</span></li>
+											<li>Ellos (вони) - p<mark>ue</mark>d<span class="endings">en</span></li>
+										</ul>
+									</li>
+									<li>
+										<p class="verb_transl">Dormir - спати</p>
+										<ul class="change_verb">
+											<li>Yo (я) - d<mark>ue</mark>rm<span class="endings">o</span> </li>
+											<li>Tu (ти) - d<mark>ue</mark>rm<span class="endings">es</span></li>
+											<li>El,Ella (він,вона) - d<mark>rm</mark>nd<span class="endings">e</span></li>
+											<li>Nosotros (ми) - d<mark>o</mark>rm<span class="endings">imos</span></li>
+											<li>Vosotros (ви) -d<mark>o</mark>rm<span class="endings">ís</span></li>
+											<li>Ellos (вони) - d<mark>ue</mark>rm<span class="endings">en</span></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<h4>Тут змінюється голосний звук в середині слова <span  class="endings">~e</span>  на <span  class="endings">~i</span></h4>
+								<ul>
+									<li>
+										<p class="verb_transl">Pedir - прохати</p>
+										<ul class="change_verb">
+											<li>Yo (я) - p<mark>i</mark>d<span class="endings">o</span> </li>
+											<li>Tu (ти) - p<mark>i</mark>d<span class="endings">es</span></li>
+											<li>El,Ella (він,вона) - p<mark>i</mark>d<span class="endings">e</span></li>
+											<li>Nosotros (ми) - p<mark>e</mark>d<span class="endings">imos</span></li>
+											<li>Vosotros (ви) -p<mark>e</mark>d<span class="endings">ís</span></li>
+											<li>Ellos (вони) - p<mark>i</mark>d<span class="endings">en</span></li>
+										</ul>
+									</li>
+									<li>
+										<p class="verb_transl">Repetir - повторювати</p>
+										<ul class="change_verb">
+											<li>Yo (я) - rep<mark>i</mark>t<span class="endings">o</span> </li>
+											<li>Tu (ти) - rep<mark>i</mark>t<span class="endings">es</span></li>
+											<li>El,Ella (він,вона) - rep<mark>i</mark>t<span class="endings">e</span></li>
+											<li>Nosotros (ми) - rep<mark>e</mark>t<span class="endings">imos</span></li>
+											<li>Vosotros (ви) -rep<mark>e</mark>t<span class="endings">ís</span></li>
+											<li>Ellos (вони) - rep<mark>i</mark>t<span class="endings">en</span></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ol>
+				</div>
+				<div class="verb_presente_irreg" id="presente_irreg">
+						<h3>Група дієслів <span>presente irregular</span> з різними закінченнями. </h3>
+						<p class="description" >Ці слова змінюються лише в особі "Я", в усіх інших особах змінюється лише закінчення, як у <span><a href="#regular">regular</a></span>.</p>
+						<p>Дивимось.</p>
+							<ol>
+								<li>
+									<h4>Дієслово із закінченням  <span class="endings">~ar</span></h4>
+									<p class="verb_transl">Dar - давати</p>
+										<ul class="change_verb">
+											<li>Yo (я) - <span class="v_irreg">doy</span> </li>
+											<li>Tu (ти) - d<span class="endings">as</span></li>
+											<li>El,Ella (він,вона) - d<span class="endings">a</span></li>
+											<li>Nosotros (ми) - d<span class="endings">amos</span></li>
+											<li>Vosotros (ви) -d<span class="endings">áis</span></li>
+											<li>Ellos (вони) - d<span class="endings">an</span></li>
+										</ul>
+								</li>
+								<li>
+									<h4>Дієслово із закінченням  <span class="endings">~er</span></h4>
+									<p class="verb_transl">Caer - падати</p>
+										<ul class="change_verb">
+											<li>Yo (я) - <span  class="v_irreg">caigo</span> </li>
+											<li>Tu (ти) - ca<span class="endings">es</span></li>
+											<li>El,Ella (він,вона) - ca<span class="endings">e</span></li>
+											<li>Nosotros (ми) - ca<span class="endings">emos</span></li>
+											<li>Vosotros (ви) - ca<span class="endings">éis</span></li>
+											<li>Ellos (вони) - ca<span class="endings">en</span></li>
+										</ul>
+								</li>
+								<li>
+									<h4>Дієслово із закінченням  <span class="endings">~ir</span></h4>
+									<p class="verb_transl">Salir - виходити</p>
+										<ul class="change_verb">
+											<li>Yo (я) - <span  class="v_irreg">salgo</span> </li>
+											<li>Tu (ти) - sal<span class="endings">es</span></li>
+											<li>El,Ella (він,вона) - sal<span class="endings">e</span></li>
+											<li>Nosotros (ми) - sal<span class="endings">imos</span></li>
+											<li>Vosotros (ви) - sal<span class="endings">ís</span></li>
+											<li>Ellos (вони) - ca<span class="endings">en</span></li>
+										</ul>
+								</li>
+							</ol>
+				</div>
+					<div class="verb_completamente_irreg" id="completamente_irreg">
+						<h3>Група дієслів <span>completamente irregular</span>.  </h3>
+						<p class="description" >Саме ці слова потрібно просто вивчити і не намагатись зрозуміти, чому тони саме так змінюються)</p>
+						<p>Дивимось.</p>
+							<ol>
+								<li>
+									<p class="verb_transl">Ser - бути</p>
+										<ul class="change_verb">
+											<li class="color_red fz30">Yo (я) - soy </li>
+											<li>Tu (ти) - eres</li>
+											<li>El,Ella (він,вона) - es</li>
+											<li class="color_red">Nosotros (ми) - somos</li>
+											<li>Vosotros (ви) -sois</li>
+											<li>Ellos (вони) - son</li>
+										</ul>
+								</li>
+								<li>
+									<p class="verb_transl">Estar - знаходитись</p>
+									<ul class="change_verb">
+										<li>Yo (я) - estoy </li>
+										<li>Tu (ти) - estás</li>
+										<li>El,Ella (він,вона) - está</li>
+										<li>Nosotros (ми) - estámos</li>
+										<li>Vosotros (ви) -estáis</li>
+										<li>Ellos (вони) - están</li>
+									</ul>
+								</li>
+								<li>
+									<p class="verb_transl">Ir - іти</p>
+									<ul class="change_verb">
+										<li>Yo (я) - voy </li>
+										<li>Tu (ти) - vas</li>
+										<li>El,Ella (він,вона) - va</li>
+										<li>Nosotros (ми) - vamos</li>
+										<li>Vosotros (ви) -vais</li>
+										<li>Ellos (вони) - van</li>
+									</ul>
+								</li>
+							</ol>
+					</div>
+				</div>
+			<img src="/img/2.jpg" alt="Adiós">
 		</main>
-		<footer></footer>
-	</body>
+		<footer class="footer">
+			<p class="year">2022</p>
+			<p>@byDariaMol</p>
+		</footer>
+	</div>
+</body>
 </html>

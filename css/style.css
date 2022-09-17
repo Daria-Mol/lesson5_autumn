@@ -1,335 +1,230 @@
-/* ====================== ШРИФТИ =============================== */
-
-/*----------------- Підключення шрифтів ----------------------- */
-
-@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap');
+@import "null.css";
+/* ============================================================================================================================= */
+/*====== Подключаемые Шрифты======= */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 @font-face {
-	font-family: "CircularStd";
-	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
-	font-display: swap;
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Medium.woff2') format("woff2"), url('../fonts/Raleway-Medium.woff') format("woff");
 	font-weight: 400;
 	font-style: normal;
+	font-display: swap;
 }
 @font-face {
-	font-family: "CircularStd";
-	src: url("../fonts/CircularStd-BookItalic.woff2") format("woff2"), url("../fonts/CircularStd-BookItalic.woff") format("woff");
-	font-display: swap;
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-MediumItalic.woff2') format("woff2"), url('../fonts/Raleway-MediumItalic.woff') format("woff");
 	font-weight: 400;
 	font-style: italic;
-}
-
-@font-face {
-	font-family: "CircularStd";
-	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
 	font-display: swap;
-	font-weight: 500;
-	font-style: normal;
 }
 @font-face {
-	font-family: "CircularStd";
-	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
-	font-display: swap;
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Bold.woff2') format("woff2"), url('../fonts/Raleway-Bold.woff') format("woff");
 	font-weight: 700;
 	font-style: normal;
+	font-display: swap;
 }
 @font-face {
-	font-family: "CircularStd";
-	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
-	font-display: swap;
-	font-weight: 900;
-	font-style: normal;
-}
-
-body{
-	font-family:"CircularStd", serif;
-}
-
-
-/* -------- CSS-властивості шрифтів ------------ */
-
-/* 
-Встановлює родину шрифту
-font-family: "Ім'я шрифту", "Ім'я шрифту", тип шрифту;
-успадковується
-
-Типи шрифтів:
-serif — шрифт з зарубками (засічками)
-sans-serif — рублений (без зарубок)
-cursive - курсивні шрифти
-fantasy — декоративні
-monospace — моноширинні
-
-.title {
-	font-family:CircularStd, serif;
-}
-*/
-
-/*
-Встановлює розмір шрифту
-font-size: цифрове значення одиниця виміру;
-(за замовчунням 16px, якщо в браузері не вказано іншого)
-успадковується
-.title {
-	font-size: 20px;
-}
-*/
-
-/*
-Встановлює стиль шрифту
-font-style: назва стилю;
-успадковується
-
-normal (за замовчуванням) - звичайний (не змінений, стандартний) стиль 
-italic - курсив
-oblique - нахилення літер
-*/
-/*
-.title{
-	font-family: CircularStd;
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-BoldItalic.woff2') format("woff2"), url('../fonts/Raleway-BoldItalic.woff') format("woff");
+	font-weight: 500;
 	font-style: italic;
+	font-display: swap;
 }
-.text{
+/*====================================== */
+
+.wrapper{
+	padding: 5px;
+}
+.header {
+	font-family: "Noto Sans";
+	text-align: center;
+	margin: 0px 0px 15px 0px;
+	font-weight: bold;
+	color: rgb(105, 134, 160);
+	font-size: 25px;
 	
 }
-*/
+.main {
+	font-family: "Roboto Slab";
+	line-height: 1.5;
+	font-size: 20px;
 
-/*
-Встановлює насиченість (товщину) шрифту
-font-weight: цифрове значення або значення словом (словесне);
-успадковується
+}
+.body {
 
-100 - thin 
-300 - lite 
-400 - Regular (normal) (за замовчуванням)
-500 - medium 
-600 - semibold 
-700 - bold 
-900 - black
-*/
-/*
+}
+.introduction {
+	margin: 0px 0px 10px 0px;
+	
+}
 .title {
-	font-family: CircularStd;
-	font-weight: 900;
+	font-size: 24px;
+	font-weight: bold;
+	text-shadow: 5px 3px 3px rgb(175, 120, 247);
 }
-*/
-
-/* -------- CSS-властивості тексту ------------ */
-/*
-Встановлює колір тексту
-color: слово або код кольору;
-успадковується
-*/
-.title{
-	/* color: green; */
-	/* color: #1f7909; */
-	/* color: rgba(55, 168, 51, 0.5); - прозорість */
+.subtitle{
+	font-size: 22px;
+	font-weight: bold;
+	text-align: right;
 }
-
-/*
-Встановлює вирівнювання тексту
-text-align: значення;
-успадковується (текстом)
-
-center - вирівнює по центру
-left - вирівнює по лівому краю
-right - вирівнює по правому краю
-justify - вирівнює текст по ширині об'єкту в якому він знаходиться 
-автоматично змінюючи пробіли між словами
-*/
-/*
-.text {
-	text-align: center;
+img{
+	margin: 0px 0px 10px 0px;
 }
-*/
-
-
-/*
-Додає тексту певне оформлення 
-text-decoration: значення;
-line-through - закреслює текст
-overline - лінія над текстом
-underline - лінія під текстом
-none - (за замовченням) відміняє змінений раніше параметр
-*/
-/*
-.text {
+h3{
+	font-size: 22px;
 	text-decoration: underline;
 }
-*/
-
-/*
-Додає тексту тінь
-text-shadow: горизонтальне_зміщення вертикальне_зміщення розмір колір;
-успадковується (текстом)
-Може бути мульти-тінь (значення через кому - text-shadow: 2px 2px 5px #000, 5px -2px 10px red;)
-.text {
-	text-shadow: 2px 2px 5px #000;
+.class_verb{
+	font-family: Raleway;
+	font-style: italic;
 }
-*/
-
-
-/*
-Встановлює тип (регістр) літер (прописні або заглавні)
-text-transform: значення;
-успадковується (текстом)
-capitalize - кожне слово починається з заглавної літери
-lowercase - усі літери прописні (нижній регістр)
-uppercase - усі літери заглавні (верхній регістр)
-none - (за замовчунням) не змінює (або відмініє) значення
-*/
-/*
-.title{
-	text-transform:uppercase;
+.class_verb li{
+	padding: 0 0 0 15px;
 }
-.text {
+.class_verb+p{
+	color: rgb(6, 78, 78);
+	text-shadow: -2px 2px 3px rgb(114, 32, 207);
+	text-transform: capitalize;
 }
-*/
-
-/*
-
-Визначає міжрядковий інтервал (відстань) (висота рядка)
-line-height: значення;
-Перевести пікселі в частини:
-значення line-height поділити на значення font-size
-успадковується (текстом)
-*/
-/*
-.text {
-	font-size: 10px;
-	line-height: 1.2;
-}
-*/
-
-/*
-Червона строка. Встановлює відступ зліва у першого рядка тексту
-text-indent: значення;
-успадковується (текстом)
-*/
-/*
-.text {
-	text-indent: 20px;
-}
-*/
-
-
-/*
-Встановлює інтервал між літерами (символами)
-letter-spacing: значення;
-успадковується (текстом)
-*/
-/*
-.title {
+.class_verb~h3{
 	text-align: center;
+}
+.type_verb {
+	padding: 0 0 0 20px;
+}
+.type_verb li{
+	font-family: Raleway;
+	text-shadow: 5px 5px 5px rgb(253, 2, 2);
+}
+.verb_exp {
+	padding: 0 0 0 20px;
+}
+.verb_exp li{
+	font-family: "Roboto Slab";
+	text-shadow: none;
+}
+.endings {
+	font-weight: bold;
+	text-decoration: underline;
+	color: rgb(206, 7, 7);
+}
+.verb_regular {
+	margin: 0px 0px 10px 0px;
+}
+.verb_regular h3{
+	text-align: right;
+	margin: 0px 0px 10px 0px;
+}
+.ending_ar,.ending_er,.ending_ir {
+	padding: 0 5px;
+}
+.ending_ar h4{
+	margin: 0px 0px 10px 0px;
+}
+.ending_ar h4+p{
+  font-weight: bold;
+}
+.change_verb {
+	font-family: "Raleway";
+}
+.change_verb li{
+	padding: 0 0 0 20px;
+}
+.endings_ar_list~p{
+	text-decoration: overline;
+}
+
+.endings_ar_list .endings{
+	color: rgb(73, 7, 255);
+}
+.color_red{
+	color: red;
+}
+.color_red.fz30{
+	color: rgb(182, 92, 92);
+	font-size: 30px;
+}
+
+
+.ending_er h4{
+	margin: 0px 0px 10px 0px;
+	letter-spacing: 5px;
+}
+.ending_er p,.ending_ir p{
+	text-decoration: underline;
+}
+
+.verb_cambio_de_vocal {
+	margin: 0px 0px 10px 0px;
+	
+}
+.verb_cambio_de_vocal .description {
+ text-indent: 15px;
+ color: black;
+ letter-spacing: normal;
+}
+
+.verb_cambio_de_vocal>p{
+	color: rgb(170, 26, 26);
+	letter-spacing: 10px;
+}
+.description+p{
+	text-decoration: line-through;
+}
+h4 .endings{
+	text-decoration: overline;
+	text-shadow: 10px 10px 3px rgb(230, 255, 3),5px 5px 5px rgb(255, 116, 3);
+
+}
+.verb_transl{
+	font-family: "Noto Sans";
+
+}
+.verb_presente_irreg {
+	margin: 0px 0px 10px 0px;
+	
+}
+.verb_presente_irreg .change_verb{
+	font-style: italic;
+}
+h4 .endings{
 	text-transform: uppercase;
-	letter-spacing: 7px;
+	text-decoration: underline;
+	text-shadow: 10px 10px 8px rgb(20, 3, 255), 5px 5px 5px rgb(255, 3, 200);
 }
-*/
-
-/*
-Управляє поведінкою пробілів між словами
-white-space: значення;
-nowrap - забороняє переніс рядка
-normal - (за замовчунням) не змінює (або відмініє) значення
-успадковується (текстом)
-*/
-/*
-.text {
-	white-space: nowrap;
+h3 span{
+	font-weight: bold;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: rgb(19, 9, 158);
+	text-shadow: 1px 1px 8px rgb(68, 65, 241);
 }
-*/
-
-/*
-Встановлює інтервал між словами
-word-spacing: значення;
-успадковується (текстом)
-*/
-/*
-.text {
+.verb_completamente_irreg .description{
 	word-spacing: 20px;
 }
-*/
-
-/* ======================================================== */
-/* --------------- CSS-властивості блоків ----------------- */
-/* ======================================================== */
-
-/*
-box-sizing
-Застосовується для зміни алгоритму обчислення величин
-content-box - (за замовченням) додає відступи до розміру об'єкту
-border-box - значення розмірів враховують відступи
-*/
-
-
-.block {
-	background-color: #77608d;
+p span{
+	font-weight: bold;
 }
-.inline {
-	background-color: #7A956B;
+.v_irreg {
+	font-weight: 700;
+	text-shadow: 2px 2px 5px rgb(27, 92, 1);
 }
-
-/* Відступи */
-/* Відступи неочикувано працюють для рядкових об'єкти */
-
-/*
-padding - Внутрішній відступ. 
-Відступи ВСЕРЕДЕНІ об'єкту. 
-Від кордонів об'єкту ДО ЙОГО КОНТЕНТУ
-НЕ успадковується
-
-padding: з_усіх_сторін;
-padding: зверху_знизу зправа_зліва;
-padding: зверху зправа_зліва знизу;
-padding: зверху зправа знизу зліва;
-
-padding-top: значення;
-padding-right: значення;
-padding-bottom: значення;
-padding-left: значення;
-
-При вказанні значення у відсотках
-відсоток береться від ширини батьківського об'єкту,
-навіть для горизонтальних відступів 
-*/
-
-/*
-margin - Зовнішній відступ.
-Відступи ЗОВНІ об'єкту. 
-
-margin: з_усіх_сторін;
-margin: зверху_знизу зправа_зліва;
-margin: зверху зправа_зліва знизу;
-margin: зверху зправа знизу зліва;
-
-margin-top: значення;
-margin-right: значення;
-margin-bottom: значення;
-margin-left: значення;
-
-Значення можуть бути від'ємними!
-
-*/
-
-.block {
-	
+.verb_completamente_irreg {
+	margin: 0px 0px 10px 0px;
 }
+.verb_completamente_irreg>h3{
+	text-transform: lowercase;
 
-.inline {
-	
 }
-
-/*
-width - чітко задає ширину блочного (блочно-рядкового) об'єкту
-НЕ працює зі рядковими об'єктами
-width: значення;
-auto - (за замовченням) автоматичний розмір
-*/
-.block {
-	padding: 10px;
-	width: 200px;
-}
-.inline {
-	width: 200px;
+.footer {
+	font-family: "Dancing Script";
+	text-align: right;
+	font-weight: bold;
+	letter-spacing: 5px;
+	font-size: 25px;
+	text-shadow: 3px 3px 3px rgb(132, 2, 253);
 }
 
